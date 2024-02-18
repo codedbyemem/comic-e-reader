@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Shopping Trip - Comic E-Reader</title>
   </head>
   <body>
-    <div class="page-title">
-      <h1>Shopping Trip</h1>
-    </div>
-    <div class="comic-wrapper">
+    <nav id="title-theme-change">
+      <div class="theme"><button id="theme-button">Dark</button></div>
+      <div class="page-title">
+        <h1>Shopping Trip</h1>
+      </div>
+    </nav>
+    <div class="comic-wrapper-light">
       <div class="page-1">
         <img
           src="https://raw.githubusercontent.com/codedbyemem/comic-e-reader/main/IMG_0372.PNG"
@@ -25,5 +34,20 @@
         />
       </div>
     </div>
+    <div class="comic-wrapper-dark">
+      <div class="page-1">
+        <img
+          src="https://raw.githubusercontent.com/codedbyemem/comic-e-reader/main/IMG_0424.PNG"
+          alt="First Page of Shopping Trip Comic by em_11.11 with dark background"
+        />
+      </div>
+      <div class="page-2">
+        <img
+          src="https://raw.githubusercontent.com/codedbyemem/comic-e-reader/main/IMG_0423.PNG"
+          alt="Second Page of Shopping Trip Comic by em_11.11 with dark background"
+        />
+      </div>
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>
