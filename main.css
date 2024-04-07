@@ -39,3 +39,7 @@ img {
   align-items: center;
   flex-direction: column;
 }
+
+.comic-wrapper-dark {
+  display: none;
+}
